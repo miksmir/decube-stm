@@ -10,7 +10,7 @@ Decube-STM is not intended to be used as a tool for building large projects, but
 
 ### Dependencies:
 - [stlink](https://github.com/stlink-org/stlink)
-- gcc-arm-none-eabi
+- arm-none-eabi-gcc
 - binutils-arm-none-eabi
 
 ### Usage:

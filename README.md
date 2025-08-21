@@ -8,8 +8,14 @@ This tool supports both CMSIS and HAL for the STM32H755 MCU.
 
 Decube-STM is not intended to be used as a tool for building large projects, but rather for smaller-scale bare-metal projects with as few dependencies as possible.
 
+### Dependencies:
+- [stlink](https://github.com/stlink-org/stlink)
+- gcc-arm-none-eabi
+- binutils-arm-none-eabi
+
 ### Usage:
 Download this repository, edit ```main.c``` and run the Bash script to build the binary, that's it! Modify the Bash script yourself if necessary.
+At a bare minimum, you need your board-specific CMSIS files, the start-up assembly file, your board-specific linker script, and a ```main.c``` file.
 
 ### Future Goals
 - [ ] Support for building for STM32H755's secondary core
